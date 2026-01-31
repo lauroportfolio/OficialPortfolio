@@ -72,11 +72,12 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "PlaySphere - Social Media for Gamers",
+    des: "A modern Next.js social media app for gamers, focused on communities and content moderation with proactive suicide prevention algorithms.",
+    img: "/playsphere.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    link: "https://playsphere-orcin.vercel.app/",
+    // Next JS, TailwindCSS, TypeScript, Clerk API, MongoDB, Uploadthing, Webhook, ShadCN, React
   },
   {
     id: 2,
@@ -209,14 +210,20 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
+    name: "GitHub",
     img: "/git.svg",
+    link: "https://github.com/lauroportfolio",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    name: "Instagram",
+    img: "/insta.svg",
+    link: "https://www.instagram.com/lauro.floress/",
   },
   {
     id: 3,
+    name: "LinkedIn",
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/lauro-flores/",
   },
 ];

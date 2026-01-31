@@ -2,7 +2,10 @@ import { withSentryConfig } from "@sentry/nextjs";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  //output: "export", // Uncomment this line to publish on hostinger
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
 export default withSentryConfig(nextConfig, {

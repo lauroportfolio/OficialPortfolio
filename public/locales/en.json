@@ -16,8 +16,8 @@
     "checkLive": "Check Live Site"
   },
   "projects": {
-    "title1": "3D Solar System Planets to Explore",
-    "des1": "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    "title1": "PlaySphere - Social Media for Gamers",
+    "des1": "A modern Next.js social media app for gamers, focused on communities and content moderation with proactive suicide prevention algorithms.",
     "title2": "Yoom - Video Conferencing App",
     "des2": "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     "title3": "AI Image SaaS - Canva Application",
@@ -57,5 +57,27 @@
     "card3Desc": "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
     "card4Title": "Lead Frontend Developer",
     "card4Desc": "Developed and maintained user-facing features using modern frontend technologies."
+  },
+  "approach": {
+    "prefix": "My",
+    "highlight": "approach",
+    "card1Title": "Planning & Strategy",
+    "card1Order": "Phase 1",
+    "card1Desc": "We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements.",
+    "card2Title": "Development & Progress Update",
+    "card2Order": "Phase 2",
+    "card2Desc": "Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way.",
+    "card3Title": "Development & Launch",
+    "card3Order": "Phase 3",
+    "card3Desc": "This is where the magic happens! Based on the approved designs, I'll translate everything into functional code, building your website from the ground up."
+  },
+  "footer": {
+    "prefix": "Ready to take",
+    "highlight1": "your",
+    "sufix": "digital presence to the",
+    "highlight2": "next level?",
+    "description": "Reach out to me today and let's discuss how I can help you achieve your goals!",
+    "emailButton": "Let's get in touch",
+    "copyright": "Copyright © 2026 Lauro Portfolio. All rights reserved."
   }
 }

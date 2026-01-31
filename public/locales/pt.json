@@ -17,8 +17,8 @@
     "checkLive": "Ver Site Agora"
   },
   "projects": {
-    "title1": "Planetas do Sistema Solar 3D",
-    "des1": "Explore as maravilhas do nosso sistema solar com esta cativante simulação 3D dos planetas usando Three.js.",
+    "title1": "PlaySphere - Rede Social para Gamers",
+    "des1": "Um app moderno em Next.js para gamers, focado em comunidades e moderação de conteúdo com algoritmos proativos de prevenção ao suicídio.",
     "title2": "Yoom - App de Videoconferência",
     "des2": "Simplifique sua experiência de videoconferência com o Yoom. Conecte-se perfeitamente com colegas e amigos.",
     "title3": "SaaS de Imagens IA - App Canva",
@@ -58,5 +58,27 @@
     "card3Desc": "Liderei o desenvolvimento de um app mobile para um cliente, do conceito inicial até o deploy nas lojas.",
     "card4Title": "Desenvolvedor Frontend Líder",
     "card4Desc": "Desenvolvi e mantive funcionalidades voltadas para o usuário usando tecnologias frontend modernas."
+  },
+  "approach": {
+    "prefix": "Minha",
+    "highlight": "abordagem",
+    "card1Title": "Planejamento & Estratégia",
+    "card1Order": "Fase 1",
+    "card1Desc": "Vamos colaborar para definir os objetivos, o público-alvo e as principais funcionalidades do seu site. Discutiremos aspectos como a estrutura do site, a navegação e os requisitos de conteúdo.",
+    "card2Title": "Desenvolvimento & Atualização de Progresso",
+    "card2Order": "Fase 2",
+    "card2Desc": "Uma vez que o planejamento estiver definido, coloco minha playlist de lo-fi e mergulho na programação. Dos esboços iniciais ao código finalizado, mantenho você atualizado em cada etapa do processo.",
+    "card3Title": "Desenvolvimento & Lançamento",
+    "card3Order": "Fase 3",
+    "card3Desc": "É aqui que a mágica acontece! Com base nos designs aprovados, traduzirei tudo em código funcional, construindo seu site do zero."
+  },
+  "footer": {
+    "prefix": "Preparado para ter",
+    "highlight1": "sua",
+    "sufix": "presença digital para o",
+    "highlight2": "próximo nível?",
+    "description": "Entre em contato comigo hoje mesmo e vamos conversar sobre como posso ajudá-lo(a) a alcançar seus objetivos!",
+    "emailButton": "Entre em contato",
+    "copyright": "Copyright © 2026 Lauro Portfolio. Todos os direitos reservados."
   }
 }

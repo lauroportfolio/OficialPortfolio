@@ -28,7 +28,7 @@ const Clients = () => {
                         // 2. CORREÇÃO: Passamos 'translatedTestimonials' em vez de 'testimonials'
                         items={translatedTestimonials}
                         direction='right'
-                        speed='slow'
+                        speed='normal'
                     />
                 </div>
 

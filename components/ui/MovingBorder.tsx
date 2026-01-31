@@ -32,8 +32,9 @@ export function Button({
   return (
     <Component
       className={cn(
-        // remove h-16 w-40, add  md:col-span-2
-        "bg-transparent relative text-xl ppx overflow-hidden md:col-span-2 md:row-span-1",
+        // REMOVIDO: md:col-span-2 e md:row-span-1 (Eles eram os culpados!)
+        // ADICIONADO: h-full w-full (Para preencher o espaço que o Experience mandar)
+        "bg-transparent relative text-xl p-[1px] overflow-hidden h-full w-full", 
         containerClassName
       )}
       style={{
@@ -42,7 +43,7 @@ export function Button({
       {...otherProps}
     >
       <div
-        className="absolute inset-0 rounde-[1.75rem]"
+        className="absolute inset-0"
         style={{ borderRadius: `calc(${borderRadius} * 0.96)` }}
       >
         <MovingBorder duration={duration} rx="30%" ry="30%">
@@ -131,7 +132,7 @@ export const MovingBorder = ({
           left: 0,
           display: "inline-block",
           transform,
-        } as any}
+        }}
       >
         {children}
       </motion.div>
