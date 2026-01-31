@@ -1,8 +1,8 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { id: "about", name: "About", link: "#about" },
+  { id: "projects", name: "Projects", link: "#projects" },
+  { id: "testimonials", name: "Testimonials", link: "#testimonials" },
+  { id: "contact", name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
@@ -106,34 +106,39 @@ export const projects = [
 
 export const testimonials = [
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    id: 1,
+    name: "Person 1",
+    title: "CEO of TechFlow",
+    // A quote aqui pode ficar vazia ou com o texto padrão em inglês, 
+    // pois ela será substituída no componente.
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    id: 2,
+    name: "Person 2",
+    title: "CTO of TechFlow",
+    // A quote aqui pode ficar vazia ou com o texto padrão em inglês, 
+    // pois ela será substituída no componente.
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    id: 3,
+    name: "Person 3",
+    title: "CEO of TechFlow",
+    // A quote aqui pode ficar vazia ou com o texto padrão em inglês, 
+    // pois ela será substituída no componente.
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    id: 4,
+    name: "Person 4",
+    title: "CTO of TechFlow",
+    // A quote aqui pode ficar vazia ou com o texto padrão em inglês, 
+    // pois ela será substituída no componente.
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    id: 5,
+    name: "Person 5",
+    title: "CEO of TechFlow",
+    // A quote aqui pode ficar vazia ou com o texto padrão em inglês, 
+    // pois ela será substituída no componente.
   },
 ];
 

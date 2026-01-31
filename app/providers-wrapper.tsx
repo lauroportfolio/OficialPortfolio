@@ -11,6 +11,7 @@ export function ProvidersWrapper({ children }: { children: React.ReactNode }) {
       defaultTheme="dark"
       enableSystem
       disableTransitionOnChange
+      forcedTheme="dark"
     >
       <LanguageProvider>
         <LanguageSwitcher />

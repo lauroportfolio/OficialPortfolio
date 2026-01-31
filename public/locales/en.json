@@ -3,6 +3,59 @@
     "subtitle": "Dynamic Web Magic with Next.js",
     "title": "Transforming Concepts into Seamless User Experiences",
     "description": "Hi, I'm Lauro, a Next.js Developer based in Brazil.",
-    "button": "Show my work"
+    "button": "Show my work"  },
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  },
+  "recentProjects": {
+    "prefix": "A small selection of ",
+    "highlight": "recent projects",
+    "checkLive": "Check Live Site"
+  },
+  "projects": {
+    "title1": "3D Solar System Planets to Explore",
+    "des1": "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    "title2": "Yoom - Video Conferencing App",
+    "des2": "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    "title3": "AI Image SaaS - Canva Application",
+    "des3": "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    "title4": "Animated Apple Iphone 3D Website",
+    "des4": "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects."
+  },
+  "grid": {
+    "item1": "I prioritize client collaboration, fostering open communication",
+    "item2": "I'm very flexible with time zone communications",
+    "item3": "My tech stack",
+    "item3Desc": "I constantly try to improve",
+    "item4": "Tech enthusiast with a passion for development.",
+    "item5": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "item5Desc": "Lorem ipsum",
+    "item6": "Do you want to start a project together?",
+    "copyEmail": "Copy my email",
+    "emailCopied": "Email copied!"
+  },
+  "testimonials": {
+    "prefix": "Kind words from",
+    "highlight": "satisfied clients/companys",
+    "quote1": "Collaborating with Lauro was a pleasure. His dedication to delivering exceptional solutions was evident throughout the project. His expertise in Next.js and Three.js turned our vision into reality.",
+    "quote2": "Extremely competent professional. The ease with which he handles complex animations and performance is what sets him apart in the frontend development market.",
+    "quote3": "Lauro doesn't just develop, he understands the product. His proactive communication and flexibility with time zones were key to the success of our launch.",
+    "quote4": "If you are looking to transform concepts into fluid digital experiences, he is the right person. The code is clean, modern, and very well structured.",
+    "quote5": "Excellent developer. Delivered the project ahead of schedule and with a visual quality that exceeded our initial expectations."
+  },
+  "experiences": {
+    "prefix": "My ",
+    "highlight": "work experience",
+    "card1Title": "Frontend Engineer Intern",
+    "card1Desc": "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    "card2Title": "Mobile App Dev - JSM Tech",
+    "card2Desc": "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    "card3Title": "Freelance App Dev Project",
+    "card3Desc": "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    "card4Title": "Lead Frontend Developer",
+    "card4Desc": "Developed and maintained user-facing features using modern frontend technologies."
   }
 }

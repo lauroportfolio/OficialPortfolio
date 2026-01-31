@@ -1,17 +1,34 @@
+"use client"
+import Clients from "@/components/Clients";
+import Experience from "@/components/Experience";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
+import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
-import { FaHome } from "react-icons/fa";
+import { useLanguage } from "@/context/LanguageContext";
+import { navItems } from "@/data";
+import { useTranslation } from "@/lib/i18n";
 
 export default function Home() {
+  const { language } = useLanguage();
+  const t = useTranslation(language);
+
+  // Mapeamos o navItems estático para usar os nomes traduzidos do JSON
+  const translatedNavItems = navItems.map(item => ({
+    ...item,
+    name: t.nav[item.id as keyof typeof t.nav] || item.name
+  }));
+
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full">
-        <FloatingNav navItems={ [
-          {name: 'Home', link: '/', icon: <FaHome />}
-        ]} />
+        {/* Passamos a lista traduzida aqui */}
+        <FloatingNav navItems={translatedNavItems} />
         <Hero />
         <Grid />
+        <RecentProjects />
+        <Clients />
+        <Experience />
       </div>
     </main>
   );

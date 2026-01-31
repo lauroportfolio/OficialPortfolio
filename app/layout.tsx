@@ -6,7 +6,7 @@ import { ProvidersWrapper } from "./providers-wrapper";
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Portfolio do Lauro",
+  title: "Lauro | Portfolio",
   description: "Portfolio Interativo, Moderno & Minimalista",
 };
 
@@ -16,9 +16,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    // 1. Adicionamos 'suppressHydrationWarning' porque o ThemeProvider altera o html
+    // 2. Mantemos a classe 'dark' como padrão para evitar flashes brancos
+    <html lang="pt-BR" suppressHydrationWarning className="dark">
       <body
-        className={inter.className}
+        className={`${inter.className} bg-background text-foreground antialiased`}
       >
         <ProvidersWrapper>
           {children}
