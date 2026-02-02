@@ -17,15 +17,12 @@ const RecentProjects = () => {
                 <span className='text-purple'>{t.recentProjects.highlight}</span>
             </h1>
 
-            <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10'>
+            <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-8'>
                 {projects.map(({ id, img, iconLists, link }) => (
                     <div key={id} className='sm:h-164 h-128 lg:min-h-130 flex items-center justify-center sm:w-142.5 w-[80vw]'>
                         <PinContainer title={link} href={link}>
                             <div className='relative flex items-center justify-center sm:w-142.5 w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10'>
-                                <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162D]'>
-                                    <img src="/bg.png" alt="bg-img" />
-                                </div>
-                                <img src={img} alt="cover" className='z-10 absolute bottom-0' />
+                                <img src={img} alt="cover" className='z-10 absolute w-full h-full object-contain' />
                             </div>
 
                             {/* TÍTULO TRADUZIDO DINAMICAMENTE */}

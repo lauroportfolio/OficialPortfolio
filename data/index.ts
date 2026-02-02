@@ -75,17 +75,16 @@ export const projects = [
     title: "PlaySphere - Social Media for Gamers",
     des: "A modern Next.js social media app for gamers, focused on communities and content moderation with proactive suicide prevention algorithms.",
     img: "/playsphere.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/mongodb.svg", "/vercel.svg", "/clerk.svg", "/shadcn.svg"],
     link: "https://playsphere-orcin.vercel.app/",
-    // Next JS, TailwindCSS, TypeScript, Clerk API, MongoDB, Uploadthing, Webhook, ShadCN, React
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "Palestrix - Interactive Lecture Platform",
+    des: "A real-time engagement app featuring live Q&A with upvoting, session management, and detailed post-lecture performance analytics.",
+    img: "/palestrix.png",
+    iconLists: ["/reactnative.svg", "/tail.svg", "/js.svg", "/mariadb.svg", "/shadcn.svg", "/expo.svg"],
+    link: "https://github.com/lauroportfolio/Palestrix",
   },
   {
     id: 3,
@@ -108,38 +107,33 @@ export const projects = [
 export const testimonials = [
   {
     id: 1,
-    name: "Person 1",
-    title: "CEO of TechFlow",
-    // A quote aqui pode ficar vazia ou com o texto padrão em inglês, 
-    // pois ela será substituída no componente.
+    name: "Eduardo",
+    title: "CEO | NavSupply",
+    img: "eduardo-navsupply.png"
   },
   {
     id: 2,
-    name: "Person 2",
-    title: "CTO of TechFlow",
-    // A quote aqui pode ficar vazia ou com o texto padrão em inglês, 
-    // pois ela será substituída no componente.
+    name: "Fernanda Ventura",
+    title: "Civil Engineer | Business Consultant",
+    img: "/fernanda.png",
   },
   {
     id: 3,
     name: "Person 3",
-    title: "CEO of TechFlow",
-    // A quote aqui pode ficar vazia ou com o texto padrão em inglês, 
-    // pois ela será substituída no componente.
+    title: "CEO | NavSupply",
+    img: "profile.svg",
   },
   {
     id: 4,
-    name: "Person 4",
-    title: "CTO of TechFlow",
-    // A quote aqui pode ficar vazia ou com o texto padrão em inglês, 
-    // pois ela será substituída no componente.
+    name: "Eugênio",
+    title: "Civil Engineer | CEO at RG Forte Construtora",
+    img: "/eugenio.png/",
   },
   {
     id: 5,
-    name: "Person 5",
-    title: "CEO of TechFlow",
-    // A quote aqui pode ficar vazia ou com o texto padrão em inglês, 
-    // pois ela será substituída no componente.
+    name: "Alex Johnson",
+    title: "Senior Product Manager | SaaS Solutions",
+    img: "/alex.png",
   },
 ];
 

@@ -12,7 +12,10 @@ const Clients = () => {
     const translatedTestimonials = testimonials.map((item, index) => ({
         ...item,
         // Forçamos a garantia de que 'quote' existe para o TS não reclamar
-        quote: t.testimonials[`quote${index + 1}` as keyof typeof t.testimonials] || ""
+        quote: t.testimonials[`quote${index + 1}` as keyof typeof t.testimonials] || "",
+        // Tradução do Title (NOVO)
+        // Buscamos 'undertitle1', 'undertitle2', etc. Se falhar, usa o original do index.ts
+        title: t.testimonials[`undertitle${index + 1}` as keyof typeof t.testimonials] || item.title
     }));
 
     return (
