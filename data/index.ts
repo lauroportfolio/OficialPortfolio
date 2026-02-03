@@ -88,11 +88,11 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "This Portfolio - Next.JS with Sentry API",
+    des: "My own Portfolio made using Aceternity UI components, TailwindCSS, Typescript and Sentry API to extract error data and manage project settings.",
+    img: "/portfolio.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/aceternity.png", "/json.svg", "sentry.svg"],
+    link: "https://www.laurotaipina.com/",
   },
   {
     id: 4,
