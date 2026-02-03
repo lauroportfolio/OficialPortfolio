@@ -20,10 +20,10 @@
     "des1": "A modern Next.js social media app for gamers, focused on communities and content moderation with proactive suicide prevention algorithms.",
     "title2": "Palestrix - Interactive Lecture Platform",
     "des2": "A real-time engagement app featuring live Q&A with upvoting, session management, and detailed post-lecture performance analytics.",
-    "title3": "This Portfolio - Next.JS with Sentry API",
-    "des3": "My own Portfolio made using Aceternity UI components, TailwindCSS, Typescript and Sentry API to extract error data and manage project settings.",
-    "title4": "Animated Apple Iphone 3D Website",
-    "des4": "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects."
+    "title3": "Animated Apple Iphone 3D Website",
+    "des3": "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects.",
+    "title4": "This Portfolio - Next.JS with Sentry API",
+    "des4": "My own Portfolio made using Aceternity UI components, TailwindCSS, Typescript and Sentry API to extract error data and manage project settings."
   },
   "grid": {
     "item1": "I prioritize client collaboration, fostering open communication",
